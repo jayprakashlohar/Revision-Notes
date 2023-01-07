@@ -1,5 +1,5 @@
-##what is react ?
-*React is a JavaScript library for building user interfaces.
+##what is react ?##
+#React is a JavaScript library for building user interfaces.
 React is a JavaScript library created by Facebook
 React is a User Interface (UI) library
-React is a tool for building UI components*
+React is a tool for building UI components#
