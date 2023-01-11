@@ -43,4 +43,14 @@ Generally, In ReactJS, we use shouldComponentUpdate() Lifecycle method to custom
 
 *useCallback is a hook that will return a memoized version of the callback function that only changes if one of the dependencies has changed. Memoization is a way to cache a result so that it doesn't need to be computed again. This can boost performance*
 
-##
+##What are callback refs?
+
+*The function receives the React component instance or HTML DOM element as its argument, which can be stored and accessed elsewhere.*
+
+##How does Context API work? What does it solve?
+
+*The Context API helps share data between components which you can't easily share with props, for example, complex data objects. React Context API provides a way to send data like userid, auth, and theme data through the component tree without sending any props manually at every level.*
+
+##What does useReducer do?
+
+**
