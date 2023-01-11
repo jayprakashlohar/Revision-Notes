@@ -1,9 +1,39 @@
 ### HTML,CSS And JavaScript Basic
 
 
-## hat is data structure explain?
+## what is data structure explain?
 _A data structure is a specialized format for organizing, processing, retrieving and storing data. There are several basic and advanced types of data structures, all designed to arrange data to suit a specific purpose. Data structures make it easy for users to access and work with the data they need in appropriate ways._
 
+## what is object in javascript?
+JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.
+
+## What is Responsive Web Design?
+Responsive web design makes your web page look good on all devices.
+Responsive web design uses only HTML and CSS.
+Responsive web design is not a program or a JavaScript.
+
+## difference between flex and grid?
+Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+
+## CSS Selectors
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+
+## CSS Box Model
+In CSS, the term "box model" is used when talking about design and layout.
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+
+## What are SVGs?
+The SVG file format is a popular tool for displaying two-dimensional graphics, charts, and illustrations on websites. Plus, as a vector file, it can be scaled up or down without losing any of its resolution.
+
+## 
 ## What is an Array?
 _An array is a collection of items of same data type stored at contiguous memory locations.
 This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset._
