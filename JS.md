@@ -121,7 +121,7 @@ As per the above code, the inner function(i.e, greetingInfo) has access to the v
 
 _Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code._
 
-## hat is a promise
+## what is a promise
 A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
 
 The syntax of Promise creation looks like below,
