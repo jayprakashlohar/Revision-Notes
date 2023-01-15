@@ -72,9 +72,15 @@ Example: A client (browser) sends an HTTP request to the server; then the server
 
 ## Diffrent between HTTP AND HTTPS IN JS ?
 
-- 1. HyperText Transfer Protocol (HTTP): HyperText Transfer Protocol (HTTP) is a protocol using which hypertext is transferred over the Web. Due to its simplicity, http has been the most widely used protocol for data transfer over the Web but the data (i.e. hypertext) exchanged using http isn’t as secure as we would like it to be. In fact, hyper-text exchanged using http goes as plain text i.e. anyone between the browser and server can read it relatively easily if one intercepts this exchange of data.
+- 1. HyperText Transfer Protocol (HTTP): HyperText Transfer Protocol (HTTP) is a protocol using which
+ hypertext is transferred over the Web. Due to its simplicity, http has been the most widely used protocol
+  for data transfer over the Web but the data (i.e. hypertext) exchanged using http isn’t as secure as we 
+  would like it to be. In fact, hyper-text exchanged using http goes as plain text i.e. anyone between the
+   browser and server can read it relatively easily if one intercepts this exchange of data.
 
-2. Hypertext Transfer Protocol Secure (HTTPS): Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication. In HTTPS, the communication protocol is encrypted using Transport Layer Security. \*
+2. Hypertext Transfer Protocol Secure (HTTPS): Hypertext Transfer Protocol Secure (HTTPS) is
+ an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication. 
+ In HTTPS, the communication protocol is encrypted using Transport Layer Security. \*
 
 \*S.No. HTTP HTTPS
 
@@ -87,10 +93,15 @@ Example: A client (browser) sends an HTTP request to the server; then the server
 7. HTTP does not require any certificates. HTTPS needs SSL Certificates.
 8. HTTP does not improve search ranking HTTPS helps to improve search ranking
 9. HTTP faster than HTTPS HTTPS slower than HTTP
-10. HTTP does not use data hashtags to secure data. While HTTPS will have the data before sending it and return it to its original state on the receiver side.\*
+10. HTTP does not use data hashtags to secure data. While HTTPS will have the data before sending it 
+and return it to its original state on the receiver side.\*
 
 ## What is promiss ?
-\*A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+\*A Promise is a proxy for a value not necessarily known when the promise is created. 
+It allows you to associate handlers with an asynchronous action's eventual success value or 
+failure reason. This lets asynchronous methods return values like synchronous methods: 
+instead of immediately returning the final value, the asynchronous method returns a promise to 
+supply the value at some point in the future.
 
 A Promise is in one of these states:
 
@@ -99,7 +110,9 @@ fulfilled: meaning that the operation was completed successfully.
 rejected: meaning that the operation failed.\*
 
 ## What are closures
-A closure is the combination of a function and the lexical environment within which that function was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables. The closure has three scope chains
+A closure is the combination of a function and the lexical environment within which that function 
+was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables.
+ The closure has three scope chains
 
 Own scope where variables defined between its curly brackets
 Outer function’s variables
@@ -115,7 +128,8 @@ return greetingInfo;
 var myFunction = Welcome("John");
 myFunction("Welcome "); //Output: Welcome John
 myFunction("Hello Mr."); //output: Hello Mr.John
-As per the above code, the inner function(i.e, greetingInfo) has access to the variables in the outer function scope(i.e, Welcome) even after the outer function has returned.##
+As per the above code, the inner function(i.e, greetingInfo) has access to the variables
+ in the outer function scope(i.e, Welcome) even after the outer function has returned.
 
 ## What is scope in javascript
 
@@ -195,16 +209,23 @@ function stop() {
 </script>*
 
 ## What is throttling?
-*Throttling is a technique used to limit the execution of an event handler function, even when this event triggers continuously due to user actions. The common use cases are browser resizing, window scrolling etc.
+*Throttling is a technique used to limit the execution of an event handler 
+function, even when this event triggers continuously due to user actions. The common use cases are browser resizing, window scrolling etc.
 
-The below example creates a throttle function to reduce the number of events for each pixel change and trigger scroll event for each 100ms except for the first event.*
+The below example creates a throttle function to reduce the number of events
+ for each pixel change and trigger scroll event for each 100ms except for the first event.*
 
 ## What is debouncing?
-*Debouncing is a programming pattern that allows delaying execution of some piece of code until a specified time to avoid unnecessary CPU cycles, API calls and improve performance. The debounce function make sure that your code is only triggered once per user input. The common usecases are Search box suggestions, text-field auto-saves, and eliminating double-button clicks.*
+*Debouncing is a programming pattern that allows delaying execution of 
+some piece of code until a specified time to avoid unnecessary CPU cycles, API calls and improve performance. The debounce function make sure that your code is only triggered once per user 
+input. The common usecases are Search box suggestions, text-field auto-saves,
+ and eliminating double-button clicks.*
 
 ### What are the differences between primitives and non-primitives?
 
-*A primitive type has always a value, while non-primitive types can be null . A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter. The size of a primitive type depends on the data type, while non-primitive types have all the same size.*
+*A primitive type has always a value, while non-primitive types can be null .
+ A primitive type starts with a lowercase letter, while non-primitive types starts 
+ with an uppercase letter. The size of a primitive type depends on the data type, while non-primitive types have all the same size.*
 
 Primitive data - Integer, Float, Boolean, Character
 Non-primitive - Array, String, Stack, Queue
@@ -220,54 +241,85 @@ SyntaxError: An instance is created for the syntax error that may occur while pa
 TypeError: When a variable is not a valid type, an instance is created for such an error.*
 
 
-### Hoisting *is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting error and this is happening due to the 1st phase (memory creation phase) of the Execution Context.*
+### Hoisting *is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting error and this is 
+ ## happening due to the 1st phase (memory creation phase) of the Execution Context.*
 
 ## Synchronous JavaScript:
- *As the name suggests synchronous means to be in a sequence, i.e. every statement of the code gets executed one by one. So, basically a statement has to wait for the earlier statement to get executed.*
+ *As the name suggests synchronous means to be in a sequence, i.e.
+  every statement of the code gets executed one by one. So, basically a statement has to wait for the earlier statement to get executed.*
 
  ## Asynchronous way: 
- *It never waits for each operation to complete, rather it executes all operations in the first only. The result of each operation will be handled once the result is available*
+ It never waits for each operation to complete, rather it
+  executes all operations in the first only. The result of each operation will be handled once the result is available*
 
- ## What is the difference between a block element and an inline element? Give few examples of block and inline tags which we have in HTML.
+ ## What is the difference between a block element and an inline element? 
+ ## Give few examples of block and inline tags which we have in HTML.
  
-A block element is a type of HTML element that creates a “block” of space on a page, meaning that it takes up the full width available and automatically starts a new line after it. Block elements can contain other block and inline elements. Examples of block elements are: 
+A block element is a type of HTML element that creates a “block” of space on a page, 
+meaning that it takes up the full width available and automatically starts a new line after it. Block elements can contain other block and inline elements. Examples of block elements are: 
 
 <h1>, <p>, <div>, <ul>, <table>, <form>, <header>, <footer>, <blockquote>, <pre>.
 
-An inline element is a type of HTML element that only takes up as much width as necessary and does not automatically start a new line. Inline elements can only contain other inline elements and cannot contain block elements. Examples of inline elements are: 
+An inline element is a type of HTML element that only takes
+ up as much width as necessary and does not automatically start a new line. Inline elements can only contain other inline elements and cannot contain block elements. Examples of inline elements are: 
 
 <a>, <span>, <strong>, <img>, <input>, <em>, <label>, <button>.
 
 ## What are pseudo-elements and pseudo-classes in CSS? Give some examples.
-Pseudo-elements and pseudo-classes in CSS are used to target specific elements on a web page. They allow you to style elements with CSS without having to add additional HTML markup.
+Pseudo-elements and pseudo-classes in CSS are used to target specific elements on 
+a web page. They allow you to style elements with CSS without having to add additional HTML markup.
 
-Pseudo-elements are used to style specific parts of an element, such as the first letter of a paragraph or the first line of a blockquote. Examples of pseudo-elements include ::first-line, ::first-letter, and ::before.
+Pseudo-elements are used to style specific parts of an element, such as the first
+ letter of a paragraph or the first line of a blockquote. 
+ Examples of pseudo-elements include ::first-line, ::first-letter, and ::before.
 
-Pseudo-classes are used to style elements based on their state or position in the document. Examples of pseudo-classes include :hover, :active, :visited, :focus, :first-child, and :last-child.
+Pseudo-classes are used to style elements based on their state or position
+ in the document. Examples of pseudo-classes include :hover, :active, 
+ :visited, :focus, :first-child, and :last-child.
 
 ## What are CSS positions? What are the position types in CSS? What is the default position property in CSS?
 
-CSS positions are the values used to define the position of an element in a web page. The position types in CSS are static, relative, absolute, fixed, and sticky. The default position property in CSS is static.
+CSS positions are the values used to define the position of
+ an element in a web page. The position types in CSS are static,
+  relative, absolute, fixed, and sticky. The default position property in CSS is static.
 
 ## What is difference between Local storage, session storage and cookies?
-Local Storage: Local storage stores data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.
+Local Storage: Local storage stores data with no expiration date. 
+The data will not be deleted when the browser is closed, and will be available the next day, week, or year.
 
 Session Storage: Session storage stores data for a single session (the data is deleted when the browser tab is closed).
 
-Cookies: Cookies are small pieces of data sent from a website and stored in a user’s web browser while the user is browsing that website. Cookies are primarily used to track a user’s activities while they are on the website, such as what pages they have visited, what items they have added to their shopping cart, etc. Cookies are also used to store user preferences and login information. Unlike local storage and session storage, cookies are sent back and forth between the browser and the server with each request.
+Cookies: Cookies are small pieces of data sent from a website and 
+stored in a user’s web browser while the user is browsing that website. 
+Cookies are primarily used to track a user’s activities while they are on
+ the website, such as what pages they have visited, what items they have added 
+ to their shopping cart, etc. Cookies are also used to store user preferences and
+  login information. Unlike local storage and session storage, cookies are sent 
+  back and forth between the browser and the server with each request.
 
 ## What are different higher order functions in JS? What is the difference between .map() and .forEach() ?
 
 1. Higher order functions in JS include filter(), map(), reduce(), forEach(), and some. 
-2. The difference between .map() and .forEach() is that .map() returns a new array with the results of calling a provided function on every element in the given array, while .forEach() calls a provided function once for each element in an array, in order. .map() is usually used when you want to transform data from one type to another, while .forEach() is usually used when you want to execute a set of instructions on each element in an array.
+2. The difference between .map() and .forEach() is that .map() returns a 
+new array with the results of calling a provided function on every element
+ in the given array, while .forEach() calls a provided function once for 
+ each element in an array, in order. .map() is usually used when you want 
+ to transform data from one type to another, while .forEach() is usually used when you want to execute a set of instructions on each element in an array.
 
 ## What is Hoisting in Javascript?
 
-Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. In JavaScript, a variable can be declared after it has been used. In other words, a variable can be used before it has been declared. Hoisting is JavaScript's default behavior of moving declarations to the top.
+Hoisting is a JavaScript mechanism where variables and function declarations 
+are moved to the top of their scope before code execution. In JavaScript, 
+a variable can be declared after it has been used. In other words,
+ a variable can be used before it has been declared. Hoisting is JavaScript's 
+ default behavior of moving declarations to the top.
 
-## What are promises? What are the different states of a promise? Support your answer with an example where you need to create your own promise.
+## What are promises? What are the different states of a promise?
+## Support your answer with an example where you need to create your own promise.
 
-Promises are objects that represent the eventual completion (or failure) of an asynchronous operation, and its resulting value. Promises are used to handle asynchronous operations in JavaScript, allowing you to write synchronous-looking code that still works asynchronously.
+Promises are objects that represent the eventual completion (or failure) of
+ an asynchronous operation, and its resulting value. Promises are used to handle 
+ asynchronous operations in JavaScript, allowing you to write synchronous-looking code that still works asynchronously.
 
 The different states of a promise are:
 1. Pending: The initial state of a promise, indicating that the operation has not yet completed.
