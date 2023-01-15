@@ -70,4 +70,14 @@ The dispatcher is the center point of the data flow in a Flux application. It is
 ## What is flux architecture?
 Flux architecture is an application architecture developed by Facebook for building user interfaces. It is based on a unidirectional data flow and follows an event-driven approach. Flux architecture is composed of four main components: the dispatcher, the stores, the views, and the actions. The dispatcher is responsible for dispatching events to the stores and views, the stores are responsible for managing application state, the views are responsible for responding to user interactions and emitting events, and the actions are responsible for creating events.
 
-## 
+##  react lifecycle method explain ?
+
+Lifecycle methods are methods that get called at certain moments in a component’s life. When a component mounts, or is added to the DOM, the componentWillMount() method is called followed by the render() method. When a component updates, or changes in some way, the componentWillUpdate() method is called followed by the render() method. When a component unmounts, or is removed from the DOM, the componentWillUnmount() method is called. 
+
+These methods allow developers to hook into certain moments in a component’s life and perform certain tasks, such as making API calls or setting up event listeners.
+
+## what is useEffect in react ?
+
+UseEffect is a React Hook that allows you to perform side effects in function components. It is a combination of componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods in React class components. It is used for data fetching, setting up subscriptions, and manually changing the DOM in React components.
+
+
