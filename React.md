@@ -81,3 +81,6 @@ These methods allow developers to hook into certain moments in a component’s l
 UseEffect is a React Hook that allows you to perform side effects in function components. It is a combination of componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods in React class components. It is used for data fetching, setting up subscriptions, and manually changing the DOM in React components.
 
 
+## why react is best from angular and other libaray ?
+
+React is a great choice for web development because it offers a number of advantages over other libraries and frameworks. Firstly, React is a component-based library that helps developers create reusable pieces of code that can be reused in different applications. Secondly, React is highly efficient, as it uses a virtual DOM that makes it faster and easier to update the DOM with data changes. Thirdly, React is highly scalable as it allows developers to scale their applications easily as the user base grows. Finally, React provides great developer tools and a supportive community, which makes it easier for developers to learn and use the library. All of these advantages make React a great choice for web development.

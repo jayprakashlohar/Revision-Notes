@@ -48,10 +48,10 @@ back and forth between the browser and the server with each request.
 
 1. Higher order functions in JS include filter(), map(), reduce(), forEach(), and some.
 2. The difference between .map() and .forEach() is that .map() returns a
-   new array with the results of calling a provided function on every element
-   in the given array, while .forEach() calls a provided function once for
-   each element in an array, in order. .map() is usually used when you want
-   to transform data from one type to another, while .forEach() is usually used when you want to execute a set of instructions on each element in an array.
+new array with the results of calling a provided function on every element
+in the given array, while .forEach() calls a provided function once for
+each element in an array, in order. .map() is usually used when you want
+to transform data from one type to another, while .forEach() is usually used when you want to execute a set of instructions on each element in an array.
 
 ## What is Hoisting in Javascript?
 
@@ -66,7 +66,6 @@ default behavior of moving declarations to the top.
 Promises are objects that represent the eventual completion (or failure) of
 an asynchronous operation, and its resulting value. Promises are used to handle
 asynchronous operations in JavaScript, allowing you to write synchronous-looking code that still works asynchronously.
-
 The different states of a promise are:
 
 1. Pending: The initial state of a promise, indicating that the operation has not yet completed.
