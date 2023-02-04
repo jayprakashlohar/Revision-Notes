@@ -28,7 +28,7 @@ REDUCER: In redux, the reducers are the pure functions that contain the logic an
 
 A Pure Function is a function (a block of code) that always returns the same result if the same arguments are passed. It does not depend on any state or data change during a program’s execution. Rather, it only depends on its input arguments.
 Also, a pure function does not produce any observable side effects such as network requests or data mutation, etc.
-Let’s see the below JavaScript Function:
+
 
 ## Why do we spread the state or return a new object in reducers?
 
@@ -51,6 +51,7 @@ When you pass a function into a dispatcher, the dispatcher will execute that fun
 Dispatchers come from the Redux store. They are functions that can be used to send actions (data) to the store. Generally, dispatchers are contained in a separate file, such as an 'actions' file, and then imported into the store.
 
 ## What are the properties of a store?
+
 Store: It is an object which provides the state of the application. This object is accessible with help of the provider in the files of the project. The only way to change the state inside it is to dispatch an action on it.
 
 There are three important parts of the store:
@@ -62,7 +63,7 @@ getState(): For getting the current state of the store in redux.
 
 The main difference between Context API and Redux is that Context API is a built-in React library that allows components to access data without having to pass the data down through multiple levels of components, while Redux is a third-party library that provides a global state management solution. Context API is much easier to implement and more lightweight than Redux, but Redux offers more features, such as time-travel debugging, and is better suited for large-scale applications.
 
-## What are redux thunks? 
+## What are redux thunks?
 
 Redux Thunks are an asynchronous middleware for Redux that allows developers to write action creators that return a function instead of an action. This function, called a thunk, can contain arbitrary logic, including making asynchronous API calls. It is used to delay the dispatch of an action, or to dispatch only if a certain condition is met. This is useful for complex actions such as creating or updating data in a database.
 
@@ -78,7 +79,7 @@ Middlewares in Redux are functions that allow the store to intercept and act upo
 
 Yes, you can write your own middleware instead of thunks. Thunks are functions that are used to delay the evaluation of an expression. They can be used to perform asynchronous tasks such as data fetching, impure functions such as accessing the browser cache, and other tasks that require some form of deferred execution. Thunks are commonly used in Redux to manage asynchronous actions, allowing us to dispatch asynchronous actions in our reducers and pass the action payloads to the store.
 
-## What is useSelector? 
+## What is useSelector?
 
 useSelector is a React hook that allows a component to access the data from a Redux store. It allows components to subscribe to the store and be notified of any changes. It is the primary way to access state in a Redux application.
 
@@ -86,7 +87,7 @@ useSelector is a React hook that allows a component to access the data from a Re
 
 The compareFn is a function that is passed into the useSelector hook. It is used to compare the current state to the previous state and determines if the selector needs to be re-run or not. The compareFn takes two parameters, the previous state and the current state, and returns a boolean that indicates whether the selector should be re-run.
 
-## What is useDispatch? 
+## What is useDispatch?
 
 useDispatch is a React hook that is used to dispatch an action to a Redux store. It takes in an action object as an argument and returns a dispatch function that can be used to dispatch the action to the store. This is a powerful way to access the store and update state via Redux.
 
@@ -95,6 +96,5 @@ useDispatch is a React hook that is used to dispatch an action to a Redux store.
 Provider is an abstraction on top of React’s Context API which allows us to pass data through the component tree without having to pass props down manually at every level. It helps to avoid the tedious context passing through many components and makes it easier to share data across components.
 
 ## what is redux tool kit? How does it make redux better?
+
 Redux Toolkit makes it easier to write good Redux applications and speeds up development, by baking in our recommended best practices, providing good default behaviors, catching mistakes, and allowing you to write simpler code. Redux Toolkit is beneficial to all Redux users regardless of skill level or experience
-
-
