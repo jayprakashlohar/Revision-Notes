@@ -24,4 +24,28 @@ Quick Sort is a sorting algorithm that sorts an array of elements by dividing it
 Time Complexity: O(nlog(n))
 Space Complexity: O(log(n))
 
-## 
+## what is queue?
+
+Queue is a linear data structure where the first element is inserted from one end called REAR and deleted from the other end called FRONT. It follows a First-In-First-Out (FIFO) structure, meaning that the item that is inserted first is the first one to be removed.
+
+## what is stack?
+
+A stack is a linear data structure that follows the Last In First Out (LIFO) principle. It is a collection of objects that are inserted and removed from the same end, with the most recently added item being the first one to be removed. The stack is a basic data structure that is used to store data for quick access, sorting, reversing, and other operations.
+
+## what is the time and space compacity of stake?
+
+The time and space complexity of a stack depends on the operations that are performed. Generally, the time complexity of a stack is O(1) for basic operations such as push, pop, peek, and isEmpty. The space complexity of a stack is O(n), where n is the number of items in the stack.
+
+## what is the space and time complexity of the queue?
+
+The space complexity of a queue is O(n), where n is the number of elements in the queue. The time complexity of the most common operations on a queue (enqueue and dequeue) is O(1).
+
+## what are the time and space complexity of recursion?
+
+Time complexity of recursion is usually exponential, or O(2^n). Space complexity of recursion is O(n) in the worst case, where n is the depth of recursion.
+
+
+<!-- ---------------------- ------------------------ ------------------------- ----------------------- --------- -->
+
+
+##

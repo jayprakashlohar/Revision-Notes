@@ -29,7 +29,6 @@ REDUCER: In redux, the reducers are the pure functions that contain the logic an
 A Pure Function is a function (a block of code) that always returns the same result if the same arguments are passed. It does not depend on any state or data change during a program’s execution. Rather, it only depends on its input arguments.
 Also, a pure function does not produce any observable side effects such as network requests or data mutation, etc.
 
-
 ## Why do we spread the state or return a new object in reducers?
 
 We spread the state or return a new object in reducers to ensure that the state is immutable. This means that the state object should not be changed directly. Instead, a modified copy of the state should be returned. This allows us to keep track of changes to the state and helps maintain the integrity of the data.
@@ -98,3 +97,19 @@ Provider is an abstraction on top of React’s Context API which allows us to pa
 ## what is redux tool kit? How does it make redux better?
 
 Redux Toolkit makes it easier to write good Redux applications and speeds up development, by baking in our recommended best practices, providing good default behaviors, catching mistakes, and allowing you to write simpler code. Redux Toolkit is beneficial to all Redux users regardless of skill level or experience
+
+<!-- ????????? -->
+
+## what is action in redux?
+
+Action in Redux is a plain JavaScript object that represents an intention to change the state of the application. Actions are the only source of information for the store. They are sent to the store using store.dispatch(). Actions must have a type property that indicates the type of action being performed.
+
+## what is reducer in redux?
+
+Reducers in Redux are functions that take in the current state of an application, an action, and return a new state. Reducers are the only source of truth for state in Redux, and they must be pure functions, meaning they must return the same output given the same input. Reducers are responsible for updating the application's state in response to an action.
+
+## what is store in redux?
+
+Redux is a state management library for JavaScript applications. It stores the application's state in a single, immutable object. This allows for the application to have a single source of truth for its state, which makes it easier to debug and maintain.
+
+## 
