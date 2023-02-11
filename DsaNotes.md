@@ -44,8 +44,218 @@ The space complexity of a queue is O(n), where n is the number of elements in th
 
 Time complexity of recursion is usually exponential, or O(2^n). Space complexity of recursion is O(n) in the worst case, where n is the depth of recursion.
 
-
 <!-- ---------------------- ------------------------ ------------------------- ----------------------- --------- -->
 
+## Remove Duplicates from Sorted Array ?
 
-##
+<!-- let arr = [1,1,2,2,3,3,4,4,5,5,5,5,5]
+  function print(arr) {
+    let unique = [];
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] !== arr[i + 1]) {
+        unique.push(arr[i]);
+      }
+    }
+    console.log(unique)
+  }
+print(arr); -->
+
+## Rotate Array?
+
+<!-- // Rotate array clockwise
+function rotateArray(arr) {
+  let last = arr.pop();
+  arr.unshift(last);
+  return arr;
+}
+
+// Rotate array counter-clockwise
+function rotateArray(arr) {
+  let first = arr.shift();
+  arr.push(first);
+  return arr; -->
+
+}
+
+## Given an array, does an array Contains Duplicate ?
+
+<!-- function hasDuplicates(arr) {
+  for(let i = 0; i < arr.length; i++) {
+    for(let j = i + 1; j < arr.length; j++) {
+      if(arr[i] === arr[j]) {
+        return true;
+      }
+    }
+  }
+  return false;
+} -->
+
+## Given a non-empty array of integers nums, every element appears twice except for one. Find that single one?
+
+<!--
+function print(arr) {
+ let res = 0
+for(let i = 0; i < arr.length; i++) {
+    res^= arr[i]
+  }
+  console.log(res)
+}
+print(arr) -->
+
+## The intersection of two arrays?
+
+<!-- const array1 = [1, 2, 3, 4, 5];
+const array2 = [3, 4, 5, 6, 7];
+const intersection = array1.filter(value => array2.includes(value));
+console.log(intersection); // Output: [3, 4, 5] -->
+
+## Difference of two arrays?
+
+<!-- //Using the spread operator
+const array1 = [1, 2, 3, 4];
+const array2 = [3, 4, 5, 6];
+const difference = [...array1].filter(x => !array2.includes(x));
+console.log(difference); // [1, 2] -->
+
+---
+
+<!-- for (let i=0; i<arrayA.length; i++) {
+    let element = arrayA[i];
+
+    if (!arrayB.includes(element)) {
+        console.log(element);
+    }
+} -->
+
+## Given an array of numbers [1,2,3...] you need to add another number n to it
+
+for example [1,2,3] + 12 = [1,3,5]
+
+<!-- var numbers = [1, 2, 3];
+var n = 2;
+function print(numbers) {
+  for (var i = 0; i < numbers.length; i++) {
+    numbers[i] += n;
+  }
+  console.log(numbers);
+}
+print(numbers) -->
+
+## Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target?
+
+<!-- function twoSum(nums, target) {
+  let result = [];
+  for(let i=0;i<nums.length;i++){
+      for(let j=i+1; j<nums.length;j++) {
+          if(nums[i] + nums[j] === target) {
+              result.push(i,j);
+          }
+      }
+  }
+  return result;
+} -->
+
+## You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees?
+<!-- function rotateMatrix(matrix) { 
+  const N = matrix.length; 
+  const rotatedMatrix = []; 
+  // loop through the matrix 
+  for (let i = 0; i < N; i++) { 
+    rotatedMatrix.push([]); 
+    for (let j = 0; j < N; j++) { 
+      rotatedMatrix[i].push(matrix[N - j - 1][i]); 
+    } 
+  } 
+  return rotatedMatrix; 
+} -->
+
+## Flatten an array ?
+<!-- function flattenArray(arr) {
+  return arr.reduce(function(prev, curr) {
+    return prev.concat(Array.isArray(curr) ? flattenArray(curr) : curr);
+  }, []);
+} -->
+
+## Given an array of strings strs, group the anagrams together. You can return the answer in any order?
+
+<!-- const groupAnagrams = (strs) => {
+  let anagrams = {};
+  for (let str of strs) {
+    let sortedStr = str.split('').sort().join('');
+    if (anagrams[sortedStr] === undefined) {
+      anagrams[sortedStr] = [str];
+    } else {
+      anagrams[sortedStr].push(str);
+    }
+  }
+  return Object.values(anagrams);
+} -->
+
+## Longest Substring Without Repeating Characters?
+
+<!-- function findLongestSubstring(str) {
+  let longest = 0;
+  let seen = {};
+  let start = 0;
+ 
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
+    if (seen[char]) {
+      start = Math.max(start, seen[char]);
+    }
+    // index - beginning of substring + 1 (to include current in count)
+    longest = Math.max(longest, i - start + 1);
+    // store the index of the next char so as to not double count
+    seen[char] = i + 1;
+  }
+  return longest;
+} -->
+
+## Longest Palindromic Substring?
+<!-- 
+function longestPalindrome(string) {
+  let longest = '';
+  for (let i = 0; i < string.length; i++) {
+    for (let j = 0; j < 2; j++) {
+      let left = i;
+      let right = i + j;
+      while (string[left] && string[left] === string[right]) {
+        left--;
+        right++;
+      }
+      if ((right - left - 1) > longest.length) {
+        longest = string.substring(left + 1, right);
+      }
+    }
+  }
+  return longest;
+} -->
+
+## Longest increasing subsequence?
+
+<!-- // This function finds the length of the longest increasing subsequence
+// in an array of numbers
+function findLongestIncreasingSubsequence(arr) {
+  let maxLength = 0;
+  let tempLength = 0;
+
+  // Loop through each element in the array
+  for (let i = 0; i < arr.length; i++) {
+    tempLength = 1;
+
+    // Compare the current element with the elements to its left
+    for (let j = i - 1; j >= 0; j--) {
+      // If the element to its left is smaller, then increment the tempLength
+      if (arr[j] < arr[i]) {
+        tempLength++;
+      }
+    }
+
+    // Keep track of the maxLength
+    if (tempLength > maxLength) {
+      maxLength = tempLength;
+    }
+  }
+
+  return maxLength;
+} -->
