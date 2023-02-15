@@ -251,3 +251,41 @@ TypeError: When a variable is not a valid type, an instance is created for such 
  ## Asynchronous way: 
  It never waits for each operation to complete, rather it
   executes all operations in the first only. The result of each operation will be handled once the result is available*
+
+
+
+
+### SOME MORE JS QUESTION 
+
+## difference between var let const ?
+
+Var, Let, and Const are all used to declare variables in JavaScript.
+Var is used for globally scoped or function scoped variables.
+Let is used for block scoped variables.
+Const is used for block scoped variables that are read-only and cannot be reassigned.
+
+## spread operator?
+The spread operator (...) is used to expand elements in an iterable object, such as an array, into a list of arguments. It can be used to spread elements of an array into a function's arguments, or to spread an array into another array.
+
+## what is rest operator ?
+The Rest Operator is a syntax used in JavaScript to create a new array out of the existing array's elements, excluding the last one. The operator is represented by three dots (...) and it is used to gather all remaining elements into an array. It can also be used to pass an indefinite number of arguments to a function.
+
+## what is Arrow function ?
+Arrow functions are a new syntax for writing JavaScript functions. They are shorter and more concise than traditional function expressions and are best suited for non-method functions. Arrow functions do not have their own this, arguments, super, or new. target bindings.
+
+## what is Destructuring ?
+Destructuring is a feature of JavaScript that allows you to extract values from arrays and objects and assign them to variables. It helps simplify code by allowing you to quickly assign values to variables without having to write multiple lines of code.
+
+## what is Default Params?
+Default params are parameters that are given a default value if no other value is specified when a function is called. It allows a function to be called without arguments, or with only some of the arguments specified.
+
+## what is Template Literals ?
+Template Literals are strings that allow embedded expressions. They are surrounded by backticks (` `) and can contain placeholders which are represented using ${expression}. Template literals can be used for string interpolation and multi-line strings.
+
+## what is Optional Chaining?
+Optional chaining is a feature in JavaScript that allows developers to access, assign, and invoke objects, properties, and methods safely and with ease. It is used to prevent errors by allowing them to write code without having to check whether a property or method exists. Optional chaining simplifies the syntax of dealing with nested objects and prevents having to write code to handle undefined values.
+
+## Classes in js?
+In JavaScript, classes are special functions that can be used to create objects and define their properties and methods. Classes provide a much cleaner and simpler way to create objects with their own properties and methods, compared to object literals or constructor functions.
+
+## 
