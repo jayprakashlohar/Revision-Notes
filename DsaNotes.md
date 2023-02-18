@@ -259,3 +259,140 @@ function findLongestIncreasingSubsequence(arr) {
 
   return maxLength;
 } -->
+
+## how to find Maximum sum of SubArray ?
+<!-- function maxSumSubArray(arr) {
+  let maxSum = 0;
+  let currentSum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    currentSum += arr[i];
+    if (currentSum > maxSum) {
+      maxSum = currentSum;
+    }
+    
+    if (currentSum < 0) {
+      currentSum = 0;
+    }
+  }
+  return maxSum;
+} -->
+
+## Find Consonants in a String ?
+<!-- 
+let str = "masai"
+function getConsonants(str) {
+  // declare consonants string
+  let consonants = '';
+  // loop through each character in the string
+  for (let i = 0; i < str.length; i++) {
+    // get the character
+    let char = str[i];
+    // check if the character is a consonant
+    if (
+      char !== 'a' &&
+      char !== 'e' &&
+      char !== 'i' &&
+      char !== 'o' &&
+      char !== 'u'
+    ) {
+      // if it is, add it to the consonants string
+      consonants += char;
+    }
+  }
+  // return the consonants
+ 
+  console.log(consonants)
+}
+
+getConsonants(str) -->
+
+##  Compare Two Array - find missing ?
+
+<!-- function compareArrays(arr1, arr2) {
+  let missing = [];
+  for (let i = 0; i < arr1.length; i++) {
+    if (!arr2.includes(arr1[i])) {
+      missing.push(arr1[i]);
+    }
+  }
+  return missing;
+} -->
+
+##  Find All the Maximum and Minimum element in Array?
+<!-- // To find the maximum element in an array:
+
+// using Math.max()
+const array = [1, 2, 3, 4, 5];
+const maxElement = Math.max(...array);
+console.log(maxElement); // Output: 5
+
+// using reduce()
+const array = [1, 2, 3, 4, 5];
+const maxElement = array.reduce((a, b) => Math.max(a, b));
+console.log(maxElement); // Output: 5
+
+// To find the minimum element in an array:
+
+// using Math.min()
+const array = [1, 2, 3, 4, 5];
+const minElement = Math.min(...array);
+console.log(minElement); // Output: 1
+
+// using reduce()
+const array = [1, 2, 3, 4, 5];
+const minElement = array.reduce((a, b) => Math.min(a, b));
+console.log(minElement); // Output: 1 -->
+
+## Find second largest and smallest element in array?
+<!-- // To find the second largest element in the array: 
+
+let myArray = [2,5,7,10,12,15];
+
+// Sort the array in descending order
+let sortedArray = myArray.sort(function(a, b){return b - a});
+
+// Get the second largest element from the sorted array
+let secondLargest = sortedArray[1];
+
+console.log(secondLargest); // Output: 12
+
+
+// To find the second smallest element in the array:
+
+let myArray = [2,5,7,10,12,15];
+
+// Sort the array in ascending order
+let sortedArray = myArray.sort(function(a, b){return a - b});
+
+// Get the second smallest element from the sorted array
+let secondSmallest = sortedArray[1];
+
+console.log(secondSmallest); // Output: 5 -->
+
+<!-- ## 
+function minJump(arr) { 
+   let jumps = new Array(arr.length); 
+  
+   if (arr.length == 0 || arr[0] == 0) 
+     return -1; 
+  
+   jumps[0] = 0; 
+  
+   for (let i = 1; i < arr.length; i++) 
+   { 
+     jumps[i] = Number.MAX_VALUE; 
+     for (let j = 0; j < i; j++) 
+     { 
+       if (i <= j + arr[j] && jumps[j] != Number.MAX_VALUE) 
+       { 
+          jumps[i] = Math.min(jumps[i], jumps[j] + 1); 
+          break; 
+       } 
+     } 
+   } 
+  
+   return jumps[arr.length-1]; 
+} 
+
+console.log(minJump([1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9])); -->
