@@ -73,7 +73,6 @@ The different states of a promise are:
 3. Rejected: The state of a promise representing a failed operation.
 
 Example:
-
 let myPromise = new Promise((resolve, reject) => {
 // do some asynchronous work
 if (/_ asynchronous work successful _/) {

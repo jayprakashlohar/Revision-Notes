@@ -279,7 +279,6 @@ Default params are parameters that are given a default value if no other value i
 
 ## what is Template Literals ?
 Template Literals are strings that allow embedded expressions. They are surrounded by backticks (` `) and can contain placeholders which are represented using ${expression}. Template literals can be used for string interpolation and multi-line strings.
-
 ## what is Optional Chaining?
 Optional chaining is a feature in JavaScript that allows developers to access, assign, and invoke objects, properties, and methods safely and with ease. It is used to prevent errors by allowing them to write code without having to check whether a property or method exists. Optional chaining simplifies the syntax of dealing with nested objects and prevents having to write code to handle undefined values.
 
