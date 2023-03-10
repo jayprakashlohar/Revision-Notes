@@ -19,7 +19,7 @@ sayHello('John'); // Output: Hello, John
 
 ##  Explain Event bubbling and Event Capturing in JavaScript with suitable examples
 
-Event bubbling is the process of an event propagating from the innermost element to the outermost element in the DOM tree. When an event is triggered on a child element it bubbles up and triggers the same event on all parent elements. 
+Event bubbling is the process of an event propagating from the innermost element to the outermost element in the DOM tree. When an event is triggered on a child element it bubbles up and triggers the same event on all parent elements.
 
 For example, if you have a <div> element inside a <form> element and you click on the <div> element, the click event will trigger on the <div> element first and then bubble up to the <form> element.
 
@@ -36,8 +36,8 @@ const addThree = (a, b, c) => a + b + c;
 We can use currying to break this down into three separate functions, each of which takes one argument: 
 
 const addOne = a => b => c => a + b + c; 
-
-const addTwo = b => c => a => a + b + c; 
+ 
+const addTwo = b => c => a => a + b + c;
 
 const addThree = c => a => b => a + b + c;
 
@@ -95,4 +95,6 @@ Hooks are a feature of React that allow developers to access state and other fea
 
 I have used the useState hook, which allows developers to store and update state in a functional component. I have also used the useEffect hook, which allows developers to run code after a component has rendered. Finally, I have used the useContext hook, which allows developers to access the React context from within a functional component.
 
-## 
+Hooks are a feature of React that allow developers to access state and other features of the React library 
+without having to write a class components. Hooks allow developers to write. It us typically a React '
+component. 

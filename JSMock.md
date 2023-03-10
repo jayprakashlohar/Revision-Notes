@@ -48,10 +48,10 @@ back and forth between the browser and the server with each request.
 
 1. Higher order functions in JS include filter(), map(), reduce(), forEach(), and some.
 2. The difference between .map() and .forEach() is that .map() returns a
-new array with the results of calling a provided function on every element
-in the given array, while .forEach() calls a provided function once for
-each element in an array, in order. .map() is usually used when you want
-to transform data from one type to another, while .forEach() is usually used when you want to execute a set of instructions on each element in an array.
+   new array with the results of calling a provided function on every element
+   in the given array, while .forEach() calls a provided function once for
+   each element in an array, in order. .map() is usually used when you want
+   to transform data from one type to another, while .forEach() is usually used when you want to execute a set of instructions on each element in an array.
 
 ## What is Hoisting in Javascript?
 
