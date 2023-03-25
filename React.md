@@ -105,3 +105,4 @@ In a controlled component, form data is handled by a React component. The altern
 
 
 
+Diffing:- React compares the virtual copy of✨ Real DOM to an updated Copy of Virtual DOM, compares or picks out the changes, and finally renders it to real Dom. This process is called Diffing and the algorithm used is called Diffing Algorithm.

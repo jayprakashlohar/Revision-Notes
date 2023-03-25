@@ -15,33 +15,33 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer(function(req, res) {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
+res.statusCode = 200;
+res.setHeader('Content-Type', 'text/plain');
+res.end('Hello World\n');
 });
 
 server.listen(port, hostname, function() {
-  console.log(`Server running at http://${hostname}:${port}/`);
+console.log(`Server running at http://${hostname}:${port}/`);
 });
 
 The following is an example of basic routes for the above web server:
 
 // Home page route
 app.get('/', (req, res) => {
-  res.status(200).send('Welcome to the home page');
+res.status(200).send('Welcome to the home page');
 });
 
 // About page route
 app.get('/about', (req, res) => {
-  res.status(200).send('Welcome to the about page');
+res.status(200).send('Welcome to the about page');
 });
 
 // Contact page route
 app.get('/contact', (req, res) => {
-  res.status(200).send('Welcome to the contact page');
+res.status(200).send('Welcome to the contact page');
 });
 
-## What is he difference between common JS and EJS module?
+## What is the difference between common JS and EJS module?
 
 CommonJS is a JavaScript module system that is used in most JavaScript engines. It is used to define dependencies between modules, which can be loaded synchronously or asynchronously. It is used in server-side applications and in Node.js.
 

@@ -95,6 +95,3 @@ Hooks are a feature of React that allow developers to access state and other fea
 
 I have used the useState hook, which allows developers to store and update state in a functional component. I have also used the useEffect hook, which allows developers to run code after a component has rendered. Finally, I have used the useContext hook, which allows developers to access the React context from within a functional component.
 
-Hooks are a feature of React that allow developers to access state and other features of the React library 
-without having to write a class components. Hooks allow developers to write. It us typically a React '
-component. 

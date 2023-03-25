@@ -268,7 +268,7 @@ Middlewares are functions that have access to the request and response objects, 
 
 MVC stands for Model-View-Controller, and it is an architectural software design pattern used in software engineering. The MVC pattern divides an application into three separate layers: the model, the view, and the controller. The model is responsible for managing the data of the application, the view is responsible for displaying that data, and the controller is responsible for responding to user input and controlling the interactions between the model and the view.
 
-## How do you do validations?
+## How do you do validations? 
 
 Validations can be done in a variety of ways, depending on the circumstances and the data needed to be validated. Generally, validations are done by checking the data against a set of criteria or rules. This can be done through code, such as with a programming language, or through a third-party service such as an online form validator. Other methods of validating data include using regular expressions, database constraints, or manual review.
 
@@ -338,7 +338,7 @@ No, it is not recommended to create and destroy a new connection for each databa
 
 There could be several different causes for this issue. It could be a result of a database trigger, a coding error, or an issue with the database server itself. It is best to consult your database administrator or a database expert to determine the exact cause.
 
-## How do you create indexes with mongoose?
+## How do you create indexes with mongoose? 
 
 Indexes can be created with mongoose using the Schema.index() method. This method takes two arguments, the first being an array of fields to be indexed and the second being an object containing the index options. For example:
 
