@@ -106,6 +106,7 @@ clearInterval(interval);
 }, [isRunning, count]);
 
 return (
+
 <div>
 <h1>{count}</h1>
 <button onClick={() => setIsRunning(!isRunning)}>
@@ -116,5 +117,14 @@ return (
 }
 
 export default App;
+
+## What is useState?
+
+useState is a Hook that allows you to add React state to function components. It takes a single argument, which is the initial state, and returns an array with two values: the current state and a function that updates it.
+
+## What is useEffect?
+
+UseEffect is a React hook that allows you to perform side effects in function components. It is a combination of componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods. With useEffect, you can perform any type of side effect, such as data fetching, setting up a subscription, and manually changing the DOM.
+
 
 ## 

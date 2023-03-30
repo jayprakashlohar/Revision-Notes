@@ -32,14 +32,16 @@ JWT (JSON Web Token) is an open standard that defines a compact and self-contain
 
 ## How is JWT different and list the pros and cons of using JWT tokens?
 
-JWT (JSON Web Token) is a type of authentication token used to authenticate a user on an application. It is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. 
+JWT (JSON Web Token) is a type of authentication token used to authenticate a user on an application. It is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.
 
 Pros:
+
 - Compact and secure: JWTs are usually smaller in size than other authentication tokens, making them more secure and easier to transmit.
 - Verifiable: JWTs can be easily verified using a secret key or a public key.
 - Scalable: JWTs can be used across multiple applications and services, making them extremely scalable.
 
 Cons:
+
 - Security: JWTs are not encrypted, which means that any data encoded in them can be accessed by anyone.
 - Stateless: JWTs are stateless, meaning that there is no way to track a user’s session.
 - Expired tokens: JWTs may expire, making them unreliable for long-term authentication.
@@ -74,7 +76,7 @@ REST (Representational State Transfer) is an architectural style for building we
 
 A stateless backend is an application architecture that does not store any data on the server. It is based on a client/server model, where each client request is handled independently and the server does not store any state information from previous requests. This type of architecture is typically used for web applications and APIs, as it allows for scalability and flexibility.
 
-## What is GraphQL? 
+## What is GraphQL?
 
 GraphQL is an open-source data query and manipulation language for APIs, developed and used by Facebook. It provides an alternative to REST and ad-hoc web service architectures. GraphQL allows developers to request data from a single endpoint and receive predictable responses. It also allows for better data fetching and manipulation capabilities, allowing developers to ask for the exact data they need, reducing the amount of data sent to and from the server.
 
@@ -88,7 +90,7 @@ The client–server model is a distributed application structure that partitions
 
 ## What is HTTP vs HTTPS?
 
-HTTP (Hypertext Transfer Protocol) is the protocol used for transferring data between a web browser and web server. It is used for transferring web page requests and responses. 
+HTTP (Hypertext Transfer Protocol) is the protocol used for transferring data between a web browser and web server. It is used for transferring web page requests and responses.
 
 HTTPS (Hypertext Transfer Protocol Secure) is an extension of HTTP that provides an additional layer of security by using encryption. This encryption helps protect information sent between the browser and web server, ensuring that data remains private and secure.
 
@@ -176,17 +178,25 @@ Horizontal scaling is the process of adding more resources (such as servers or a
 
 5. Implement automated failover: Automated failover is a system design strategy that allows for automatic recovery from system failures. This can help ensure that the system remains available in the event of an outage.
 
-
-
 ### Node.js
+
+## What is non-blocking vs blocking?
+
+Non-blocking and blocking are terms used in computing and programming to describe different ways that software can handle tasks or operations.
+
+Blocking refers to a situation where a program or function stops or "blocks" while waiting for a particular operation to complete before moving on to the next task. In other words, when a task is blocking, it will not release control back to the program until it has completed its operation, which can cause the program to become unresponsive or slow down.
+
+On the other hand, non-blocking refers to a situation where a program or function can continue executing other tasks while it waits for a particular operation to complete. This means that the program will not become unresponsive or slow down, even if some tasks are taking longer to complete than others.
+
+Non-blocking programming is often used in scenarios where a program needs to handle multiple tasks or requests simultaneously, such as in web applications, networking, or real-time systems. In contrast, blocking programming may be used when a program needs to perform a single task and can afford to wait until that task is completed before moving on to the next one.
 
 ## What is throughput?
 
 Throughput is a measure of the amount of data that can be transmitted or processed within a certain period of time. It is often expressed in terms of bits per second (bps), bytes per second (Bps) or some other unit of information. Throughput is an important factor in the performance of networks, servers and other computing systems.
 
-## what is the difference between readFile and readFileSync
+## what is the difference between readFile and readFileSync?
 
-The main difference between readFile and readFileSync is that readFile is asynchronous and readFileSync is synchronous. 
+The main difference between readFile and readFileSync is that readFile is asynchronous and readFileSync is synchronous.
 
 readFile is asynchronous, meaning that it reads a file without blocking the main program from executing other instructions. readFileSync is synchronous, meaning that it blocks the main program until the file is completely read. readFile will return a callback with the content of the file when the read operation is complete, while readFileSync will return the content of the file immediately after it is read.
 
@@ -197,15 +207,15 @@ You can make a network request using the http module by using the http.get() met
 const http = require('http');
 
 http.get('http://example.com', (res) => {
-    let data = '';
-    res.on('data', (chunk) => {
-        data += chunk;
-    });
-    res.on('end', () => {
-        console.log(data);
-    });
+let data = '';
+res.on('data', (chunk) => {
+data += chunk;
+});
+res.on('end', () => {
+console.log(data);
+});
 }).on('error', (err) => {
-    console.log(err);
+console.log(err);
 });
 
 ## What is libuv?
@@ -248,8 +258,6 @@ The crypto module in Node.js is a cryptographic library that provides cryptograp
 
 Microservices are a type of software architecture that structures an application as a collection of loosely coupled services. This style of architecture is designed to make applications more scalable and easier to maintain. Microservices are developed independently and can be deployed and scaled with relative ease. They are typically built using a range of different programming languages and frameworks.
 
-
-
 ### Express.js+Mongoose
 
 ## How does express work?
@@ -268,7 +276,7 @@ Middlewares are functions that have access to the request and response objects, 
 
 MVC stands for Model-View-Controller, and it is an architectural software design pattern used in software engineering. The MVC pattern divides an application into three separate layers: the model, the view, and the controller. The model is responsible for managing the data of the application, the view is responsible for displaying that data, and the controller is responsible for responding to user input and controlling the interactions between the model and the view.
 
-## How do you do validations? 
+## How do you do validations?
 
 Validations can be done in a variety of ways, depending on the circumstances and the data needed to be validated. Generally, validations are done by checking the data against a set of criteria or rules. This can be done through code, such as with a programming language, or through a third-party service such as an online form validator. Other methods of validating data include using regular expressions, database constraints, or manual review.
 
@@ -300,14 +308,14 @@ Express does not directly manage cookies, as it is a web application framework. 
 ## What are common libraries you work with express?
 
 Some of the most popular libraries used with Express are:
--Express-Validator: for data validation 
--Express-Handlebars: for templating 
--Morgan: for logging 
--Cookie-Parser: for cookie management 
--Body-Parser: for parsing request bodies 
+-Express-Validator: for data validation
+-Express-Handlebars: for templating
+-Morgan: for logging
+-Cookie-Parser: for cookie management
+-Body-Parser: for parsing request bodies
 -Multer: for file uploads
--CSurf: for CSRF protection 
--Passport: for authentication 
+-CSurf: for CSRF protection
+-Passport: for authentication
 -Helmet: for security-related HTTP headers.
 
 ## What is CORS?
@@ -322,7 +330,7 @@ Models in mongoose are JavaScript objects that represent a collection of documen
 
 Mongoose does not return a promise because it does not have an inbuilt promise library. Instead, it uses the Node.js callback pattern. This means that when you call a mongoose method, you pass in a callback function that will be called when the operation has completed. The .then() method is used to convert the mongoose callback into a promise, so that it can be used with Promise based code.
 
-##  What are aggregation pipelines with mongoose?
+## What are aggregation pipelines with mongoose?
 
 Aggregation pipelines are a feature of Mongoose, an object data modeling library for MongoDB, which allow developers to define data transformations over a collection. Aggregation pipelines allow developers to perform operations such as sorting, filtering, grouping, and transforming data in order to produce an aggregated result. Aggregation pipelines are a powerful tool that can be used to analyze large datasets, and are an essential part of building modern data-driven applications.
 
@@ -338,13 +346,13 @@ No, it is not recommended to create and destroy a new connection for each databa
 
 There could be several different causes for this issue. It could be a result of a database trigger, a coding error, or an issue with the database server itself. It is best to consult your database administrator or a database expert to determine the exact cause.
 
-## How do you create indexes with mongoose? 
+## How do you create indexes with mongoose?
 
 Indexes can be created with mongoose using the Schema.index() method. This method takes two arguments, the first being an array of fields to be indexed and the second being an object containing the index options. For example:
 
 const schema = new mongoose.Schema({
-  name: { type: String },
-  age: { type: Number },
+name: { type: String },
+age: { type: Number },
 });
 
 schema.index({ name: 1, age: -1 }, { unique: true });
