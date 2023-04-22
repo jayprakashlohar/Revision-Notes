@@ -180,6 +180,27 @@ Horizontal scaling is the process of adding more resources (such as servers or a
 
 ### Node.js
 
+### What is Node js?
+
+Node.js is an open-source, server-side, JavaScript runtime environment that allows developers to build scalable and high-performance applications. Node.js is built on the V8 JavaScript engine developed by Google and is designed to handle I/O operations efficiently. Node.js is commonly used for building web applications, RESTful APIs, and real-time applications such as chat applications and streaming services. It is particularly well-suited for building applications that require real-time data exchange between client and server. Node.js has a large and active community of developers and offers a rich ecosystem of third-party modules and libraries.
+
+## What are the feature of node js ?
+
+Asynchronous and event-driven: Node.js is designed to handle a large number of I/O operations and is particularly well-suited for building scalable, real-time applications that require frequent data exchange between client and server. It does this by using an event-driven, non-blocking I/O model that allows multiple tasks to be executed simultaneously without blocking the execution of other tasks.
+
+Fast performance: Node.js is built on the V8 JavaScript engine developed by Google, which is known for its high-performance execution of JavaScript code. Node.js is designed to take full advantage of the V8 engine and offers high-performance execution of JavaScript code.
+
+Cross-platform: Node.js is cross-platform and can run on a variety of operating systems, including Windows, macOS, and Linux.
+
+Large and active community: Node.js has a large and active community of developers who contribute to its development and offer support through various forums and communities.
+
+NPM (Node Package Manager): NPM is the official package manager for Node.js and provides access to a vast ecosystem of third-party modules and libraries that can be easily installed and used in Node.js applications.
+
+Easy to learn and use: Node.js is built on JavaScript, which is a popular programming language that many developers are already familiar with. This makes it easy for developers to learn and use Node.js, particularly if they have experience with front-end web development.
+
+Scalability: Node.js is designed to handle a large number of simultaneous connections and requests, making it well-suited for building scalable applications that can handle high levels of traffic.
+
+
 ## What is non-blocking vs blocking?
 
 Non-blocking and blocking are terms used in computing and programming to describe different ways that software can handle tasks or operations.

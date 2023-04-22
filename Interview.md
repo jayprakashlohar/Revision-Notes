@@ -9,9 +9,6 @@ Have patience, Everything will be Fine  -->
 
 
 
-
-
-
 ## . Why should we hire you? / Why do you think you are eligible for this job as a fresher?
 
 I believe I am the ideal person to hire due to my enthusiasm, my drive and determination, and my commitment to learning. I am a quick learner and I am eager to take on new challenges and learn new skills. I am highly organized and I have strong problem-solving and communication skills. I am also confident that I have the necessary skills to perform well in this job and I am committed to putting in the effort to succeed.

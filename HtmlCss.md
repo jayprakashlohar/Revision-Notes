@@ -171,4 +171,4 @@ SVGs (Scalable Vector Graphics) are a type of image file that uses mathematical 
 
 To animate SVGs, you can use a combination of CSS, JavaScript, and the SVG animation elements such as <animate>, <set>, and <animateTransform>. CSS can be used to apply motion effects to an SVG, such as rotation, scaling, and translation. JavaScript can be used to control the animation, such as setting the duration or timing functions for the animation. SVG animation elements can be used to animate specific SVG attributes, such as the x, y, width, height, and fill attributes.
 
-##
+

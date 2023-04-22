@@ -77,7 +77,7 @@ We can take inputs from the terminal using the following methods:
 
 ## How many types of modules are there in node?
 
-There are three main types of modules in Node.js: Core Modules, Local Modules, and Third-Party Modules. Core Modules are modules that are included in the Node.js installation and provide basic functionalities. Local Modules are modules that are created by the user in the application’s directory and are used by the application. Third-Party Modules are modules that are created by other developers and are installed using the Node Package Manager (NPM).
+There are three main types of modules in Node.js: Core Modules, Local Modules, and Thi Core Modules are modules that are included in the Node.js installation and provide basic functionalities. Local Modules are modules that are created by the user in the application’s directory and are used by the application. Third-Party Modules are modules that are created by other developers and are installed using the Node Package Manager (NPM).
 
 ## What is the difference between authentication and authorization?
 
