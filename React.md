@@ -6,11 +6,11 @@
 
 React is a JavaScript library created by Facebook
 React is a User Interface (UI) library
-React is a tool for building UI components#
+React is a tool for building UI components
 
 ## What are keys in React?
 
-- A “key” is a special string attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists\*
+- A “key” is a special string attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists.
 
 ## What is memoisation in react?
 
@@ -27,7 +27,7 @@ React is a tool for building UI components#
 
 ## What is SSR and CSR?
 
-- The main difference between CSR and SSR is where the page is rendered. SSR renders the page on the server-side and CSR renders the page on the client-side. The client-side dynamically manages the routing without refreshing the page each time the client requests another route.\*
+- The main difference between CSR and SSR is where the page is rendered. SSR renders the page on the server-side and CSR renders the page on the client-side. The client-side dynamically manages the routing without refreshing the page each time the client requests another route.
 
 ## What are the lifecycle methods in class components?
 
@@ -62,7 +62,7 @@ The lifecycle methods in class components are:
 
 ## How does Context API work? What does it solve?
 
-- The Context API helps share data between components which you can't easily share with props, for example, complex data objects. React Context API provides a way to send data like userid, auth, and theme data through the component tree without sending any props manually at every level. \*
+- The Context API helps share data between components which you can't easily share with props, for example, complex data objects. React Context API provides a way to send data like userid, auth, and theme data through the component tree without sending any props manually at every level.
 
 ## What does useReducer do?
 
@@ -101,8 +101,5 @@ React is a great choice for web development because it offers a number of advant
 ## controlled and uncontrolled components ?
 
 In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself.
-
-
-
 
 Diffing:- React compares the virtual copy of✨ Real DOM to an updated Copy of Virtual DOM, compares or picks out the changes, and finally renders it to real Dom. This process is called Diffing and the algorithm used is called Diffing Algorithm.

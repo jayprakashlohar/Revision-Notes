@@ -240,4 +240,110 @@ An event loop is an asynchronous programming construct that allows an applicatio
 
 An event loop is an asynchronous programming construct that allows an application or program to continually listen for and respond to events or messages from other programs. It is the core of any event-driven programming and allows for a program to run indefinitely and continuously respond to outside events.
 
+<!-- ------------------------------------------------------------------ -->
+<!-- ---------------------------------------------------------------------------- -->
+
+## What is solid principles?
+
+SOLID principles are a set of five design principles that are meant to help software developers create maintainable and scalable code.
+
+Here are the five SOLID principles:
+
+Single Responsibility Principle (SRP): A class should have only one reason to change.
+Open/Closed Principle (OCP): Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types.
+Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.
+Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions.
+Remembering and understanding these principles can help you write better, more maintainable code.
+
+## What is API ?
+
+API stands for Application Programming Interface. It is a set of protocols, routines, and tools for building software applications. APIs allow different software applications to communicate with each other by exchanging data and requests. Essentially, an API serves as an intermediary between different software systems, allowing them to interact with each other in a standardized way.
+
+## what is binary tree ?
+
+A binary tree is a tree-like data structure where each node has at most two children, referred to as the left child and the right child. The topmost node in a binary tree is called the root, and nodes without any children are called leaf nodes. Binary trees are commonly used in computer science and programming to efficiently store and search data, with many common algorithms (such as binary search) relying on the binary tree structure.
+
+## What is data structure ?
+
+In computer science, a data structure is a way of organizing and storing data in a computer program so that it can be accessed and used efficiently. Different types of data structures are optimized for different types of operations, such as searching, sorting, inserting, and deleting data. Examples of common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Choosing the appropriate data structure for a given problem is an important part of writing efficient and effective computer programs.
+
+### SHORT ANSWARE
+
+## What is a data structure?
+
+A way of organizing and storing data in a program efficiently.
+
+## What is an API?
+
+A set of protocols and tools for building software applications that allow them to communicate with each other.
+
+## What is a binary tree?
+
+A tree-like data structure where each node can have at most two children.
+
+## What are SOLID principles?
+
+A set of five design principles to help create maintainable and scalable code.
+
+## What is object-oriented programming (OOP)?
+
+A programming paradigm that uses objects to represent and manipulate data.
+
+## What is a database?
+
+A collection of data that is organized and stored in a way that allows easy access, retrieval, and modification.
+
+## What is an algorithm?
+
+A set of instructions for solving a problem or performing a task.
+
+## What is a compiler?
+
+A program that translates source code written in one programming language into another language (usually machine code).
+
+## What is version control?
+
+A system for managing changes to files and code over time, allowing teams to collaborate and track changes.
+
+## What is a cloud computing?
+
+A model of computing that allows users to access and use computing resources (such as servers, storage, and applications) over the internet on a pay-per-use basis.
+
+## What is event loop ?
+
+An event loop is a mechanism that allows for asynchronous task execution by continuously monitoring events, dispatching them to appropriate handlers, and repeating the process in a loop.
+
+## what is higher-order function ?
+
+A higher-order function is a function that can accept other functions as arguments or return functions as results.
+
+## what is z index ?
+
+Z Index ( z-index ) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index. Note: Z index only works on positioned elements ( position:absolute , position:relative , or position:fixed ).
+
+## explain lazy loading ?
+
+Lazy loading is a technique used in web development to load content only when it is needed, improving performance by reducing initial load times and optimizing bandwidth usage.
+
+Lazy loading is a technique used in web development to improve website performance by loading content only when it is needed, typically when it becomes visible in the user's viewport or when the user requests it.
+
+## what is Immediate function ?
+
+An immediate function, also known as an immediately-invoked function expression (IIFE), is a JavaScript function that is executed immediately after it is defined. It is commonly used to create a local scope, encapsulate code, and prevent variable name conflicts.
+
+## what is meta tag ?
+
+A meta tag is an HTML element that provides metadata about a web page. It is placed within the head section of an HTML document and does not produce any visible content on the page itself. Instead, meta tags provide information to browsers, search engines, and other web services.
+
+Meta tags are used to communicate various types of information about a webpage. They can include details such as the page's title, description, author, character encoding, viewport settings, keywords, and more. Meta tags play a crucial role in search engine optimization (SEO), social sharing, and overall webpage presentation.
+
+## what is babel ?
+
+Babel is a JavaScript compiler that converts modern JavaScript code into a compatible version for older browsers or environments.
+
+## componentDidMount?
+
+componentDidMount() is a React lifecycle method that is called once after a component is rendered for the first time. It is used for performing initialization, data fetching, setting up event listeners, or interacting with the DOM.
+
 ##

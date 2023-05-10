@@ -80,7 +80,7 @@ A CSS preprocessor is a program that takes a basic CSS file and compiles it into
 
 Debugging:
 
-1. Print Statements: Inserting print statements in code to track execution of the program.
+1. Print Statements: Inserting print statthe ements in code to track execution of program.
 2. Step Through Debugging: Step-by-step debugging of code to help identify the source of errors.
 3. Breakpoints: Setting breakpoints in code to pause the execution at specific lines of code.
 4. Debugger: Using a debugger tool to identify and fix errors.
