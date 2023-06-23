@@ -346,4 +346,12 @@ Babel is a JavaScript compiler that converts modern JavaScript code into a compa
 
 componentDidMount() is a React lifecycle method that is called once after a component is rendered for the first time. It is used for performing initialization, data fetching, setting up event listeners, or interacting with the DOM.
 
+## What is use ref in react ?
+
+The useRef Hook allows you to persist values between renders.
+
+It can be used to store a mutable value that does not cause a re-render when updated.
+
+It can be used to access a DOM element directly.
+
 ##

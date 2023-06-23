@@ -11,7 +11,7 @@ CSS can be added to an HTML webpage in one of three ways.
 ## What does CSS stand for?
 
 CSS stands for Cascading Style Sheets.
-
+CSS stands for Cascading Style Sheets.
 ## What does HTML stand for?
 
 HTML stands for Hypertext Markup Language.

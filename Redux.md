@@ -1,6 +1,6 @@
 ### Redux
 
-## What is Redux?
+## What is Redux? 
 
 Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Redux provides a state container for JavaScript applications that helps manage the state of the application and enforce the unidirectional data flow.
 
@@ -8,7 +8,7 @@ Redux is an open-source JavaScript library for managing application state. It is
 
 In Redux, actions are plain JavaScript objects that represent an event that has occurred in the application. Actions are the only way to trigger a state change in the store, and must include a type property that indicates the type of action being performed. Actions are dispatched to the store with the store.dispatch() method, and the data contained within the action is processed by the reducer to update the state of the application.
 
-## What are action creators in redux?
+## What are action creators in redux? 
 
 Action creators are functions that return an action, which is an object that contains a type property and optionally a payload. Action creators are used to make code more readable and maintainable in large Redux applications. They allow for the easy creation of action objects that can be dispatched to the store or middleware for further processing.
 

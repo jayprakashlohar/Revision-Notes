@@ -103,3 +103,43 @@ React is a great choice for web development because it offers a number of advant
 In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself.
 
 Diffing:- React compares the virtual copy of✨ Real DOM to an updated Copy of Virtual DOM, compares or picks out the changes, and finally renders it to real Dom. This process is called Diffing and the algorithm used is called Diffing Algorithm.
+
+<!-- ------------- Some more react questions ------------------------ -->
+
+## what is useTimer hook in react explain with some example ?
+
+The useTimer hook in React is a custom hook that allows you to easily manage and manipulate timers within your React components. It abstracts away the complexity of setting up and managing timers by providing a simple API.
+
+Here's an example implementation of a useTimer hook:
+<!-- 
+import { useEffect, useState } from 'react';
+
+const useTimer = (initialTime = 0) => {
+  const [time, setTime] = useState(initialTime);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTime((prevTime) => prevTime + 1);
+    }, 1000);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+
+  return time;
+};
+
+// Usage
+function TimerComponent() {
+  const time = useTimer();
+
+  return (
+    <div>
+      <h1>Timer</h1>
+      <p>Time: {time}</p>
+    </div>
+  );
+} -->
+
+## 
