@@ -50,7 +50,7 @@ The lifecycle methods in class components are:
 
 - A React component is considered pure if it renders the same output for the same state and props.
   Generally, In ReactJS, we use shouldComponentUpdate() Lifecycle method to customize the default behavior and implement it when the React component should re-render or update itself.
--
+
 
 ## What is useCallback?
 

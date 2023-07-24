@@ -5,7 +5,7 @@ _A data structure is a specialized format for organizing, processing, retrieving
 
 ## What is an Array?
 _An array is a collection of items of same data type stored at contiguous memory locations.
-This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset._
+This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset.
 
 ##  what is self closing tag in html?
 _Some HTML tags (like img and br ) don't have their own content. These are known as self closing tags or empty tags. They look like this: A simple example: <br /> The br tag inserts a line break (not a paragraph break)._
@@ -214,7 +214,7 @@ function, even when this event triggers continuously due to user actions. The co
 *Debouncing is a programming pattern that allows delaying execution of 
 some piece of code until a specified time to avoid unnecessary CPU cycles, API calls and improve performance. The debounce function make sure that your code is only triggered once per user 
 input. The common usecases are Search box suggestions, text-field auto-saves,
- and eliminating double-button clicks.*
+and eliminating double-button clicks.*
 
 ### What are the differences between primitives and non-primitives?
 

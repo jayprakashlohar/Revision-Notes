@@ -12,6 +12,7 @@ CSS can be added to an HTML webpage in one of three ways.
 
 CSS stands for Cascading Style Sheets.
 CSS stands for Cascading Style Sheets.
+
 ## What does HTML stand for?
 
 HTML stands for Hypertext Markup Language.
@@ -50,10 +51,6 @@ HTML stands for Hypertext Markup Language.
 ## What are forms in HTML?
 
 Forms are elements in HTML that allow users to enter data into a web page. Forms are typically used to gather information from a user, such as a name, address, or credit card information. Forms consist of various elements, such as text fields, checkboxes, radio buttons, dropdowns, and submit buttons, that allow users to enter and submit this data.
-
-## What are event listeners in HTML?
-
-Event listeners in HTML are attributes that can be added to HTML elements to define a function that will be executed when a certain event is triggered. For example, an event listener can be used to respond to a mouse click, a key press, or a form submission.
 
 ## What are event listeners in HTML?
 
@@ -170,5 +167,35 @@ SVGs (Scalable Vector Graphics) are a type of image file that uses mathematical 
 ## How do you animate SVGs?
 
 To animate SVGs, you can use a combination of CSS, JavaScript, and the SVG animation elements such as <animate>, <set>, and <animateTransform>. CSS can be used to apply motion effects to an SVG, such as rotation, scaling, and translation. JavaScript can be used to control the animation, such as setting the duration or timing functions for the animation. SVG animation elements can be used to animate specific SVG attributes, such as the x, y, width, height, and fill attributes.
+
+<!-- ---------------------------- More important Questions ------------------------------------------>
+
+## difference between ordered list and unordered list in html ?
+
+In HTML, both ordered lists (<ol>) and unordered lists (<ul>) are used to create lists of items. However, they differ in terms of the way the items are displayed and the numbering or bullet points used.
+
+Ordered List (<ol>):
+An ordered list is used to represent a list of items in a specific order or sequence.
+The list items are typically displayed with numbers or letters to indicate the order.
+The numbering of items is automatic and follows a sequential pattern (1, 2, 3, etc.).
+By default, the numbering starts from 1, but you can modify it using the start attribute.
+
+Unordered List (<ul>):
+
+An unordered list is used to represent a collection of items that do not have a specific order or sequence.
+The list items are typically displayed with bullet points or other symbols to denote each item.
+The ordering of items is not important, and they are presented in the order they appear in the HTML code.
+
+In summary, the main difference between ordered lists and unordered lists in HTML lies in the way the items are displayed. Ordered lists use numerical or alphabetical ordering, while unordered lists use bullet points or other symbols to denote the items.
+
+## What is html ? 
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+
 
 
